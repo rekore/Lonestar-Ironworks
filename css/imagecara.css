@@ -1,0 +1,66 @@
+body {
+font-family: Domine;
+    font-size: 2em;
+    color: black;
+    font-weight: 700;    
+    background-color: #EDE3C0;  
+}
+
+.item {
+      max-height: 70%;
+    }
+    html {
+      height: 100%;
+
+    }
+    .carousel-inner > .item > img {
+    margin: 0 auto;
+}
+  .carousel {
+    min-height: 60%;
+    max-height: 80%;
+    margin: 25px auto;
+    width: 80%;
+    background-color: black;
+  }
+
+  .logoSpan {
+    height: 50px;
+
+}
+
+.container-fluid > nav{
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    padding: 0px 0px;
+    margin-right: 15px;
+    border-right: 2px solid orange;
+}
+
+.navbar-collapse {
+    background-color: rgba(228,213,164,1);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    font-size: 1.3em;
+    color: black;
+}
+.navbar-default {
+    border: 2px solid orange;
+    background-image: url(../images/fadelogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E4D5A4;
+}
+
+.nav .navbar-nav li a {
+    padding-left: 25px;
+    padding-right: 25px;
+}

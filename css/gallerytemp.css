@@ -1,0 +1,121 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Domine;
+    font-size: 2em;
+    color: black;
+    font-weight: 700;    
+    background-color: #EDE3C0;
+}
+
+#jumbo {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  padding: none;
+  background-color: #EDE3C0;
+  min-height: 20%;
+  max-height: 25%;
+  margin: 10px 15px;
+
+}
+
+#jumbo img {   
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   /*height: 100%;*/
+   /*width: auto;*/
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);   
+   width: 100%;
+   height: auto;
+}
+
+.logoSpan {
+    height: 50px;
+
+}
+
+.container-fluid > nav{
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    padding: 0px 0px;
+    margin-right: 15px;
+    border-right: 2px solid orange;
+}
+
+.navbar-collapse {
+    background-color: rgba(228,213,164,1);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    font-size: 1.3em;
+    color: black;
+}
+.navbar-default {
+    border: 2px solid orange;
+    background-image: url(../images/fadelogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E4D5A4;
+}
+
+.nav .navbar-nav li a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*navbar ends*/
+
+
+
+.container {
+    border: 2px solid orange;
+    padding-top: 15px;
+    background-color: #E4D5A4;
+}
+
+.thumbnail {
+   position: relative;
+   min-height: 36%;
+   max-height: 50%;
+   max-width: 100%;
+   overflow: hidden;
+}
+.thumbnail img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   height: 100%;
+   width: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+   width: 100%;
+   height: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+div h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
