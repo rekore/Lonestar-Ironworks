@@ -1,0 +1,161 @@
+
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 2em;
+    color: black;
+    background-color: rgba(159,176,148,1);
+    font-weight: 700;
+    background-size: cover;
+}
+
+
+
+
+
+#jumbo {
+  background-image: url(../images/pan1.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 183px;
+
+}
+
+#jumbo>img {
+  float: left;
+  margin-right: 40px;
+}
+
+#jumbo>h1 {
+  text-align: left;
+  font-size: 5em;
+  text-shadow: 1px 3px 4px black;
+}
+
+
+
+
+
+
+/*nav begins*/
+
+#navhold {
+  background-color: #EDE3C0;
+  width: 100%;
+  border-bottom: 2px solid #CE5D0A;
+  border-top: 2px solid #CE5D0A;
+  margin-top: -2px;
+}
+
+
+.nav>li>a {
+  color: black;
+  font-size: 1.5em;
+  padding: 0px;
+  border-left: 1px solid #CE5D0A;
+  border-right: 1px solid #CE5D0A;
+
+}
+
+.nav>li>a:hover {
+  text-decoration: underline;
+  background-color: rgba(228,213,164,1);
+
+}
+
+
+/*navbar ends*/
+
+
+p {
+  text-align: center;
+}
+
+.homecont {
+    border: 2px solid #CE5D0A;
+    padding-top: 15px;
+    background-color: rgba(228,213,164,1);
+    margin-top: 25px;
+}
+
+.thumbs:hover {
+    text-decoration: underline;
+
+}
+
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-size: 1.3em;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+   border-width: 3px;
+   border-color: #B7540C;
+}
+
+.thumbnail {
+   position: relative;
+   height: 36%;
+   max-height: 50%;
+   max-width: 100%;
+   overflow: hidden;
+   margin-bottom: 8px;
+}
+.thumbnail img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   height: 100%;
+   width: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+   width: 100%;
+   height: auto;
+}
+
+
+.text {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+
+img {
+}
+div h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Times New Roman";
+}
+
+
+.footer {
+  border-top: 2px solid #CE5D0A;
+  border-bottom: 2px solid #CE5D0A;
+  text-align: center;
+  margin-top: 3%;
+  background-color: rgba(228,213,164,1);
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+  .actives {
+  background-color: rgba(228,213,164,1);
+
+}
